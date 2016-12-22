@@ -18,11 +18,11 @@ To Run:
 
 Mac:
 Use this script to install the prerequisites:
-ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install gtk+3
-install gnuplot
-BASEDIR="$( dirname "$0" )"
-cd "$BASEDIR"
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    brew install gtk+3
+    install gnuplot
+    BASEDIR="$( dirname "$0" )"
+    cd "$BASEDIR"
 
 Then compile
 gcc GOMonteCarlo.c -o GOMonteCarlo `pkg-config --cflags --libs gtk+-3.0` -lm -lpthread 

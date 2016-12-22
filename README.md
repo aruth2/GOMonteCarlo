@@ -18,6 +18,7 @@ To Run:
 
 Mac:
 Use this script to install the prerequisites:
+    
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     brew install gtk+3
     install gnuplot

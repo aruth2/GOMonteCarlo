@@ -1,6 +1,8 @@
 # GOMonteCarlo
 This software package simulates the reduction of graphene oxide and calculates the optical response of the generated sp2 domains
 
+![alt tag](https://raw.githubusercontent.com/aruth2/GOMonteCarlo/master/MC.png)
+
 Prerequisites:
 GTK+3
 gnuplot

@@ -10,10 +10,12 @@ Installation Instructions:
 
 Linux:
 compile with this command
-gcc GOMonteCarlo.c -o GOMonteCarlo `pkg-config --cflags --libs gtk+-3.0` -lm -lpthread 
+
+    gcc GOMonteCarlo.c -o GOMonteCarlo `pkg-config --cflags --libs gtk+-3.0` -lm -lpthread 
 
 To Run:
-./GOMonteCarlo
+
+    ./GOMonteCarlo
 
 
 Mac:
@@ -26,10 +28,14 @@ Use this script to install the prerequisites:
     cd "$BASEDIR"
 
 Then compile
-gcc GOMonteCarlo.c -o GOMonteCarlo `pkg-config --cflags --libs gtk+-3.0` -lm -lpthread 
-./GOMonteCarlo
+
+    gcc GOMonteCarlo.c -o GOMonteCarlo `pkg-config --cflags --libs gtk+-3.0` -lm -lpthread 
+
+And Run
+    
+    ./GOMonteCarlo
 
 Windows:
-At present, the program is missing some precompiler flags to switch threading to windows method of threading.
-Also, there are some issues with using GTK+ in windows, but I have compiled GTK+ code in Windows before.
+At present, the program is missing some precompiler flags to switch threading to Windows method of threading.
+Also, there are some issues with using GTK+ in Windows, but I have compiled GTK+ code in Windows before.
 If you would like to run this program on a Windows machine please contact me.

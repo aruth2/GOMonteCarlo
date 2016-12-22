@@ -4,8 +4,9 @@ This software package simulates the reduction of graphene oxide and calculates t
 ![alt tag](https://raw.githubusercontent.com/aruth2/GOMonteCarlo/master/MC.png)
 
 Prerequisites:
-GTK+3
-gnuplot
+
+    GTK+3
+    gnuplot
 
 
 Installation Instructions:
